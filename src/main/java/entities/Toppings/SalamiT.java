@@ -7,4 +7,12 @@ public class SalamiT extends Toppings {
         this.calories = 22;
         this.price = 0.69;
     }
+
+    @Override
+    public String toString() {
+        return "Salami :" +
+                "calories=" + calories +
+                ", price=" + price + ";"
+                ;
+    }
 }

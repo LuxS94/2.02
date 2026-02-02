@@ -15,5 +15,13 @@ public class Salami extends Pizzas {
         return ingrediente;
     }
 
-
+    @Override
+    public String toString() {
+        return "Salami: " +
+                "ingredienti= " + ingrediente + " " +
+                ", calorie=" + calories +
+                ", prezzo=" + price +
+                "; "
+                ;
+    }
 }

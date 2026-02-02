@@ -14,7 +14,7 @@ public class Application {
         SpringApplication.run(Application.class, args);
         AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(ConfigClass.class);
         Menu menu = ctx.getBean(Menu.class);
-        
+        menu.printMenu();
     }
 
 }

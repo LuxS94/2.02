@@ -7,4 +7,12 @@ public class Cheese extends Toppings {
         this.calories = 92;
         this.price = 0.69;
     }
+
+    @Override
+    public String toString() {
+        return "Cheese :" +
+                "calories=" + calories +
+                ", price=" + price + ";"
+                ;
+    }
 }

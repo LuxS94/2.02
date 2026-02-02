@@ -7,4 +7,12 @@ public class Onion extends Toppings {
         this.calories = 22;
         this.price = 0.69;
     }
+
+    @Override
+    public String toString() {
+        return "Onion :" +
+                "calories=" + calories +
+                ", price=" + price + ";"
+                ;
+    }
 }

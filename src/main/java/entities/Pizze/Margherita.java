@@ -9,4 +9,12 @@ public class Margherita extends Pizzas {
 
     }
 
+    @Override
+    public String toString() {
+        return "Margherita: " +
+                "ingredienti= " + ingrediente1 + " " + ingrediente2 + " " +
+                ", calorie=" + calories +
+                ", prezzo=" + price +
+                "; ";
+    }
 }

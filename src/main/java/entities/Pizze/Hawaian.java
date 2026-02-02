@@ -21,5 +21,15 @@ public class Hawaian extends Pizzas {
     public String getIngrediente2() {
         return ingrediente2;
     }
+
+    @Override
+    public String toString() {
+        return "Hawaian: " +
+                "ingredienti= " + ingrediente1 + " " + ingrediente2 + " " +
+                ", calorie=" + calories +
+                ", prezzo=" + price +
+                "; "
+                ;
+    }
 }
 

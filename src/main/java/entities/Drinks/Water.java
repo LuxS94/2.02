@@ -6,4 +6,12 @@ public class Water extends Drinks {
         this.price = 1.29;
 
     }
+
+    @Override
+    public String toString() {
+        return "Water: " +
+                "calories=" + calories +
+                ", price=" + price + "; "
+                ;
+    }
 }

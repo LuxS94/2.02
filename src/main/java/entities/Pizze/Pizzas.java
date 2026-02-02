@@ -29,4 +29,11 @@ public abstract class Pizzas {
     }
 
     ;
+
+    @Override
+    public String toString() {
+        return
+                ingrediente1 + " ," +
+                        ingrediente2 + " ,";
+    }
 }
