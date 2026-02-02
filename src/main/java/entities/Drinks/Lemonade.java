@@ -1,0 +1,8 @@
+package entities.Drinks;
+
+public class Lemonade extends Drinks {
+    public Lemonade() {
+        this.calories = 128;
+        this.price = 1.29;
+    }
+}
