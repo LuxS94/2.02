@@ -1,8 +1,8 @@
 package entities.Pizze;
 
 public abstract class Pizzas {
-    public String ingrediente1;
-    public String ingrediente2;
+    public static String ingrediente1;
+    public static String ingrediente2;
     public int calories;
     public double price;
 

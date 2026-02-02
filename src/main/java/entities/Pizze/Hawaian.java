@@ -25,7 +25,7 @@ public class Hawaian extends Pizzas {
     @Override
     public String toString() {
         return "Hawaian: " +
-                "ingredienti= " + ingrediente1 + " " + ingrediente2 + " " +
+                "ingredienti= " + ingrediente1 + " " + ingrediente2 + " " + Pizzas.ingrediente1 + " " + Pizzas.ingrediente2 + " " +
                 ", calorie=" + calories +
                 ", prezzo=" + price +
                 "; "

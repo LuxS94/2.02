@@ -18,7 +18,7 @@ public class Salami extends Pizzas {
     @Override
     public String toString() {
         return "Salami: " +
-                "ingredienti= " + ingrediente + " " +
+                "ingredienti= " + ingrediente + " " + ingrediente1 + " " + ingrediente2 + " " +
                 ", calorie=" + calories +
                 ", prezzo=" + price +
                 "; "
