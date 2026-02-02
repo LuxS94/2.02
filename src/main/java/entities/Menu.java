@@ -17,11 +17,14 @@ public class Menu {
         this.drink = drink;
     }
 
-    public String printMenu() {
-        return "Menu : " +
+    public void printMenu() {
+        System.out.println("Menu : " +
                 "pizze= " + pizze +
                 "; drink= " + drink +
                 "; topping= " + topping +
-                '.';
+                '.');
     }
+
+    ;
 }
+
